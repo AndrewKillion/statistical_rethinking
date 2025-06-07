@@ -1,6 +1,6 @@
 # Statistical Rethinking with Python and PyMC3
 
-This is my attempt to convert [Richard McElraeth's](https://github.com/rmcelreath) excellent book [Statistical Rethinking](https://xcelab.net/rm/) from R to Ptyhon as started by [pymc-devs](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking).
+This is my attempt to convert [Richard McElraeth's](https://github.com/rmcelreath) excellent book [Statistical Rethinking](https://xcelab.net/rm/) from R to Python as started by [pymc-devs](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking).
 
 I did my best to preserve the exact colo schemes as well as notation structure as the book so it's easy to follow along.
 
@@ -15,14 +15,14 @@ I've also included my annotated version of the (currently quite outdated) PDF fr
 
 ## Installing the dependencies
 
-To install the dependencies to run these notebooks, it is recommended to first create a virtual environment.
+To install the dependencies to run these notebooks, I recommend creating a virtual environment.
 
-    python3 -m venv .venv
+    python -m venv .venv
     source .venv/bin/activate
 
-Then, you can install the required packages using `pip`:
+Then, install the required packages using `pip`:
 
-    pip install -r "Statistical Rethinking (Python Code)/requirements.txt"
+    pip install -r requirements.txt"
 
 
 ---
