@@ -1,0 +1,4 @@
+jupyter
+seaborn
+statsmodels
+git+https://github.com/pymc-devs/pymc3.git@master 
